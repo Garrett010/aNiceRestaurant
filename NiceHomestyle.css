@@ -1,0 +1,69 @@
+body {
+    background-image: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/11148381_1633703453507696_8598558011128465666_o.jpg?_nc_cat=102&_nc_ht=scontent-iad3-1.xx&oh=ffbae5cdeb54455d9dd9cb584df9fc5c&oe=5CD02789);
+    background-repeat: no-repeat;
+    
+}
+header {
+    text-align: left;
+    font-size: 85px;
+    animation: header 3s;
+    font-family: 'EB Garamond', serif;
+    font-style: bold;
+
+}
+@keyframes header {
+    from{opacity:0.0;}
+    to{opacity:0.9;}
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+    animation: h1 3s;
+    font-family: 'Merriweather', serif;
+}
+@keyframes h1 {
+    from{opacity:0.0;}
+    to{opacity:0.9;}
+}
+hr {
+    animation: hr 3s;
+    color: black;
+}
+@keyframes hr {
+    from{width:0%;}
+    to{width:100%;}
+}
+h2 {
+    text-align: center;
+    animation: h2 4s;
+    font-size: 28px;
+}
+@keyframes h2 {
+    from{opacity:0.0;}
+    to{opacity:0.9;}
+}
+.jumbotron {
+    width:50%;
+    margin-left:275px;
+    box-shadow: 2px 2px 2px 2px #bfbfbf;
+    background-color: #99ccff;
+    font-family: 'Merriweather', serif;
+}
+h3 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    color: #b30000;
+}
+p {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+.container1 {
+    background-color: #f2f2f2;
+    opacity: 0.4;
+}
+li:hover {
+    background-color: #d9d9d9;
+}
