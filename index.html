@@ -1,50 +1,172 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <!--Script/Font imports-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Condiment|Merriweather" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:600" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="NiceHomestyle.css">
+<!--Script/Font imports-->
+
+
+  <body>
+  
         <title>A Nice Restaurant</title>
     </head>
-    
-    <link rel="stylesheet" type="text/css" href="Specialtiesstyle.css">
-    <body>
+   
+        
+
+<!--Navigation-->
     <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">A NICE RESTAURANT</a>
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">A NICE RESTAURANT</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="NiceHomeindex.html">Home</a></li>
+            <li><a href="HouseSpecialties.html">House Specialties</a></li>
+            <li><a href="NicePlatters.html">Platters</a></li>
+            <li><a href="NiceOmelets.html">Omelets</a></li>
+            <li><a href="NiceEggSand.html">Egg Sandwhiches</a></li>
+            <li><a href="NiceFit.html">Fit & Healthy</a></li>
+            <li><a href="NiceCarte.html">A la Carte</a></li>
+          </ul>
+          <h2>Monday-Friday 6:30 AM to 3:00 PM 
+              Saturday-Sunday 7:00 AM to 3:00 PM<br />
+              2784 Meijer Dr., Suite 3, Jeffersonville, IN <br />
+              812-280-9160</h2>
+        </div>
+      </nav>
+  <!--Navigation-->
+
+
+
+
+
+<!--The annoying to make photo carousel-->
+      <div class="container">
+        <div id="logoCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators black">
+              <li data-target="#logoCarousel" data-slide-to="0" class="active"></li>  
+              <li data-target="#logoCarousel" data-slide-to="1"></li>
+              <li data-target="#logoCarousel" data-slide-to="2"></li>
+              <li data-target="#logoCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+
+              <div class="item active">
+                <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/11144983_1701307383413969_8898986328549726258_o.jpg?_nc_cat=107&_nc_ht=scontent-iad3-1.xx&oh=01aad1c6e3f6b7868284110f5c2b5624&oe=5CD02065" style="width:100%">
+                  <div class="carousel-caption">
+                    <h1>Delicious French Toast!</h1>
+                  </div>
               </div>
-              <ul class="nav navbar-nav">
-                  <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="HouseSpecialties.html">House Specialties</a></li>
-                <li><a href="NicePlatters.html">Platters</a></li>
-                <li><a href="NiceOmelets.html">Omelets</a></li>
-                <li><a href="NiceEggSand.html">Egg Sandwhiches</a></li>
-                <li><a href="NiceFit.html">Fit & Healthy</a></li>
-                <li><a href="NiceCarte.html">A la Carte</a></li>
-              </ul>
-              <p>Monday-Friday 6:30 AM to 3:00 PM 
-                  Saturday-Sunday 7:00 AM to 3:00 PM</p>
+            
+              <div class="item">
+                <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/11313007_1652432194968155_9182421505150284094_o.jpg?_nc_cat=101&_nc_ht=scontent-iad3-1.xx&oh=a7012c69cf79e187f65703c5841f2511&oe=5C987967" style="width:100%">
+              <div class="carousel-caption">
+                <h1>Amazing Omelets!</h1>
+              </div>
+              </div>
+
+              <div class="item">
+                  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/11155001_1644700752407966_1162326063402479321_o.jpg?_nc_cat=108&_nc_ht=scontent-iad3-1.xx&oh=5c18bae9f372aaceeb0bdc82c67d2233&oe=5C95537E" style="width:100%">
+                <div class="carousel-caption">
+                  <h1>Fluffy Pancakes!</h1>
+                </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/11154578_1637003356511039_3353627565341545402_o.jpg?_nc_cat=104&_nc_ht=scontent-iad3-1.xx&oh=6fc670b0aaaf287e05fcf4f612eaf777&oe=5C9276BF" style="width:100%">
+                  <div class="carousel-caption">
+                    <h1>Healthy Options!</h1>
+                  </div>
+                  </div>
+
+
+            <a class="left carousel-control" href="#logoCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#logoCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+              
             </div>
-          </nav>
-    
-<h1>Home</h1><br /><br />
-  
-<div class="container">
-        <div class="jumbotron">
-<h3> Breakfast Platter</h3><br />
-  <p> Three eggs, homemade hash browns, chunk of ham, bacon or sausage& choice of toast or biscuit 6.99
-</p>
+        
+        </div>
+<br />
+<!--The annoying to make photo carousel-->     
 
-<h3>Country Ham & Eggs</h3><br />
-  <p> Two eggs, country ham, homemade has browns & choice of toast or biscuit 8.89</p>
 
-  <h3>Ribeye Steak & Eggs</h3><br />
-<p>Two eggs, 6oz Ribeye, homemade hasbrowns & choice of toast or biscuit 8.89</p>
-</div></div>
+<!--google map-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.984386552836!2d-85.7126828487603!3d38.32619238791464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88697163d947757b%3A0x4f64385cfedd77c0!2sA+Nice+Restaurant!5e0!3m2!1sen!2sus!4v1546559494648" width="1150" height="800" frameborder="0" style="border:0" allowfullscreen></iframe>
+<!--google map-->
+
+
+
+<!--Scroll to top of page-->
+<br /><br /><br /><br /><br />
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Click to return to Top of page</button>
+      <script>
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("myBtn").style.display = "block";
+            } else {
+              document.getElementById("myBtn").style.display = "none";
+            }
+          }
+          
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          </script>
+<!--Scroll to top of page-->     
+
+
+<!--footer-->
+<div class="footer">
+   <p>Sign up for our News Letter for future alerts on specials!</p>
+   <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+    </div>
+   <!--Social Media Links-->
+   <div>
+      <a href="https://www.facebook.com/ANiceRestaurant/">
+        <img title="aNiceRestaurantFB" alt="facebook" src="http://www.transparentpng.com/thumb/facebook-logo-png/background-facebook-logo-5.png" height="150" width="150">
+        </a>
+
+        <a href="https://www.facebook.com/ANiceRestaurant/">
+          <img title="aNiceRestaurantInsta" alt="Instagram" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c521.png" height="120" width="120">
+          </a>
+      
+          <a href="https://www.facebook.com/ANiceRestaurant/">
+            <img title="aNiceRestaurantFB" alt="facebook" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png" height="150" width="150">
+            </a>
+          <div class="payments" id="payments">
+           <img src="http://us02-imgcdn.ymcart.com/27795/2018/06/23/6/2/627db19e31ea56e4.png" height="160" width="300">
+        </div>
+      </div>
+<!--Social Media Links-->
+
+
+
+<!--footer-->
+
+</div>
+</div>
 
     </body>
 </html>
