@@ -13,10 +13,6 @@ header {
     font-style: bold;
 
 }
-@keyframes header {
-    from{opacity:0.0;}
-    to{opacity:0.9;}
-}
 h1 {
     text-align: center;
     font-size: 35px;
