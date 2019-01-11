@@ -56,6 +56,63 @@
     <li>Add raisins, pecans or blueberries .65</li>
 </ol>
 </div>
+	
+	<!--Scroll to top of page-->
+<br /><br /><br /><br /><br />
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Click to return to Top of page</button>
+      <script>
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("myBtn").style.display = "block";
+            } else {
+              document.getElementById("myBtn").style.display = "none";
+            }
+          }
+          
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          </script>
+<!--Scroll to top of page-->     
+
+
+<!--footer-->
+<div class="footer">
+   <p>Sign up for our News Letter for future alerts on specials!</p>
+   <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+    </div>
+   <!--Social Media Links-->
+   <div>
+      <a href="https://www.facebook.com/ANiceRestaurant/">
+        <img title="aNiceRestaurantFB" alt="facebook" src="http://www.transparentpng.com/thumb/facebook-logo-png/background-facebook-logo-5.png" height="150" width="150">
+        </a>
+
+        <a href="https://www.facebook.com/ANiceRestaurant/">
+          <img title="aNiceRestaurantInsta" alt="Instagram" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c521.png" height="120" width="120">
+          </a>
+      
+          <a href="https://www.facebook.com/ANiceRestaurant/">
+            <img title="aNiceRestaurantFB" alt="facebook" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png" height="150" width="150">
+            </a>
+          <div class="payments" id="payments">
+           <img src="http://us02-imgcdn.ymcart.com/27795/2018/06/23/6/2/627db19e31ea56e4.png" height="160" width="300">
+        </div>
+      </div>
+<!--Social Media Links-->
+
+
+
+<!--footer-->
 
     </body>
 </html>
