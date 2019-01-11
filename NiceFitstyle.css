@@ -27,6 +27,10 @@ h1 {
     from{opacity:0.0;}
     to{opacity:0.9;}
 }
+hr {
+    animation: hr 3s;
+    color: black;
+}
 @keyframes hr {
     from{width:0%;}
     to{width:100%;}
@@ -64,18 +68,16 @@ p {
 }
 li:hover {
     background-color: #d9d9d9;
-    
 }
-
 .footer {
     background-color:#d9d9d9;
     opacity: 0.9;
-    width:50%;
-    margin-left:500px;
+    width:100%;
+    
 }
 #myBtn {
-    width:50%;
-    margin-left:500px;
+    width:100%;
+  
 }
 #email {
     float: right;
